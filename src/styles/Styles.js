@@ -21,5 +21,5 @@ export default createGlobalStyle`
 
   body{
       font: 400 1.6rem Poppins;
-  }
+  } 
 `;
