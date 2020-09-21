@@ -7,6 +7,7 @@ Portal de últimas nóticias desenvolvido com base no desafio Front-end proposto
 ### Tecnologia 
 
 ● React
+
 ● Axios
 
 ● [API - NewsAPI ] (https://newsapi.org/) - Portal de notícias mundiais
@@ -22,4 +23,4 @@ Portal de últimas nóticias desenvolvido com base no desafio Front-end proposto
 
 #### Imprementação futura
 
- - Infinite Scroll
+ - Infinite Scroll 

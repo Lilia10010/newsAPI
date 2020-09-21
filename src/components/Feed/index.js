@@ -22,7 +22,7 @@ function Feed() {
    // const ref = useRef();    
 
     //para rodar na vercel process.env.REACT_APP_API_KEY
-    const apiKey = "8e99a71bdcec4f5e9362f0d8743bd24e"; 
+    const apiKey = "8e99a71bdcec4f5e9362f0d8743bd24e";  
     
     
    
