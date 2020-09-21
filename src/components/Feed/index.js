@@ -27,7 +27,7 @@ function Feed() {
     
    
 
-    async function loadPage(pageNumber) {
+    async function loadPage(pageNumber) { 
          
       const res = await 
         axios
