@@ -21,8 +21,8 @@ function Feed() {
     //infinite scroll
    // const ref = useRef();    
 
-    //para rodar após o deploy
-    // const apiKey = "8e99a71bdcec4f5e9362f0d8743bd24e"; 
+    //para rodar na vercel process.env.REACT_APP_API_KEY
+    const apiKey = "8e99a71bdcec4f5e9362f0d8743bd24e"; 
     
     
    
@@ -31,7 +31,7 @@ function Feed() {
          
       const res = await 
         axios
-           .get(`https://newsapi.org/v2/top-headlines?country=br&page=${pageNumber}&q=${search}&category=technology&pageSize=${pageSize}&apiKey=${process.env.REACT_APP_API_KEY}` ) 
+           .get(`https://newsapi.org/v2/top-headlines?country=br&page=${pageNumber}&q=${search}&category=technology&pageSize=${pageSize}&apiKey=${apiKey}` ) 
       
             setData(res.data)
 
